@@ -12,15 +12,27 @@ npm install -S @feizheng/next-hook-value
 ```
 
 ## apis
-| api | params | description   |
-|-----|--------|---------------|
-| get | -      | desc balabala |
+| api | params | description            |
+| --- | ------ | ---------------------- |
+| get | -      | get the value in hooks |
 
 ## usage
 ```js
 import NxHookValue from '@feizheng/next-hook-value';
 
-// code goes here:
+const hookValue = new NxHookValue({
+  2: '参数错误',
+  3: '未知错误',
+  '-1': '用户取消',
+  '*': '服务端接口返回的错误'
+});
+
+hookValue.get('2') //参数错误
+hookValue.get('3') //未知错误
+hookValue.get('-1') //用户取消
+
+hookValue.get(null) //服务端接口返回的错误
+hookValue.get(100) //服务端接口返回的错误
 ```
 
 ## license
