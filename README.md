@@ -47,7 +47,7 @@ svalue.get('ul') // html
 svalue.get('li') // html
 
 
-// set defautls
+// defautls
 svalue.get(null) //服务端接口返回的错误
 svalue.get(100) //服务端接口返回的错误
 ```
