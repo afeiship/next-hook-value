@@ -3,7 +3,7 @@
  * description: Get value for hooks or default.
  * homepage: https://github.com/afeiship/next-switch-value
  * version: 1.0.0
- * date: 2020-11-12T07:22:17.096Z
+ * date: 2020-11-12T07:25:43.556Z
  * license: MIT
  */
 

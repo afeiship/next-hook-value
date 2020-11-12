@@ -33,5 +33,14 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
-  }
+  },
+  "keywords": [
+    "next",
+    "hook",
+    "value",
+    "default",
+    "switch",
+    "case",
+    "selector"
+  ]
 }
