@@ -18,9 +18,9 @@ npm install -S @feizheng/next-switch-value
 
 ## usage
 ```js
-import NxHookValue from '@feizheng/next-switch-value';
+import NxSwitchValue from '@feizheng/next-switch-value';
 
-const hookValue = new NxHookValue({
+const hookValue = new NxSwitchValue({
   2: '参数错误',
   3: '未知错误',
   '-1': '用户取消',
