@@ -1,9 +1,9 @@
 /*!
- * name: @feizheng/next-hook-value
+ * name: @feizheng/next-switch-value
  * description: Get value for hooks or default.
- * homepage: https://github.com/afeiship/next-hook-value
- * version: 1.1.0
- * date: 2020-11-12T07:18:02.099Z
+ * homepage: https://github.com/afeiship/next-switch-value
+ * version: 1.0.0
+ * date: 2020-11-12T07:22:17.096Z
  * license: MIT
  */
 
@@ -17,7 +17,7 @@
     debug: false
   };
 
-  var NxHookValue = nx.declare('nx.HookValue', {
+  var NxSwitchValue = nx.declare('nx.SwitchValue', {
     methods: {
       init: function (inHooks, inOptions) {
         var defHooks = {};
@@ -52,6 +52,6 @@
   });
 
   if (typeof module !== 'undefined' && module.exports) {
-    module.exports = NxHookValue;
+    module.exports = NxSwitchValue;
   }
 })();

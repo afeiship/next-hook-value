@@ -8,7 +8,7 @@
     debug: false
   };
 
-  var NxHookValue = nx.declare('nx.HookValue', {
+  var NxSwitchValue = nx.declare('nx.SwitchValue', {
     methods: {
       init: function (inHooks, inOptions) {
         var defHooks = {};
@@ -43,6 +43,6 @@
   });
 
   if (typeof module !== 'undefined' && module.exports) {
-    module.exports = NxHookValue;
+    module.exports = NxSwitchValue;
   }
 })();

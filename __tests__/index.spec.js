@@ -1,10 +1,10 @@
 (function () {
   const nx = require('@feizheng/next-js-core2');
-  const NxHookValue = require('../src/next-hook-value');
+  const NxSwitchValue = require('../src/next-switch-value');
 
-  describe('NxHookValue.methods', function () {
+  describe('NxSwitchValue.methods', function () {
     test('init normal case', function () {
-      const hookValue = new NxHookValue({
+      const hookValue = new NxSwitchValue({
         2: '参数错误',
         3: '未知错误',
         '-1': '用户取消',
@@ -19,7 +19,7 @@
     });
 
     test('You have * your hooks', () => {
-      const hookValue = new NxHookValue(
+      const hookValue = new NxSwitchValue(
         {
           circle: 'circle me',
           rect: 'rect me',
@@ -35,7 +35,7 @@
     });
 
     test('separator', () => {
-      const hookValue = new NxHookValue({
+      const hookValue = new NxSwitchValue({
         'circle|rect|use|path': 'svg',
         'div|span|ul|li': 'html',
         '*': 'canvas'

@@ -1,4 +1,4 @@
-# next-hook-value
+# next-switch-value
 > Get value for hooks or default.
 
 [![version][version-image]][version-url]
@@ -8,7 +8,7 @@
 
 ## installation
 ```bash
-npm install -S @feizheng/next-hook-value
+npm install -S @feizheng/next-switch-value
 ```
 
 ## apis
@@ -18,7 +18,7 @@ npm install -S @feizheng/next-hook-value
 
 ## usage
 ```js
-import NxHookValue from '@feizheng/next-hook-value';
+import NxHookValue from '@feizheng/next-switch-value';
 
 const hookValue = new NxHookValue({
   2: '参数错误',
@@ -48,16 +48,16 @@ hookValue.get('li') // html
 ```
 
 ## license
-Code released under [the MIT license](https://github.com/afeiship/next-hook-value/blob/master/LICENSE.txt).
+Code released under [the MIT license](https://github.com/afeiship/next-switch-value/blob/master/LICENSE.txt).
 
-[version-image]: https://img.shields.io/npm/v/@feizheng/next-hook-value
-[version-url]: https://npmjs.org/package/@feizheng/next-hook-value
+[version-image]: https://img.shields.io/npm/v/@feizheng/next-switch-value
+[version-url]: https://npmjs.org/package/@feizheng/next-switch-value
 
-[license-image]: https://img.shields.io/npm/l/@feizheng/next-hook-value
-[license-url]: https://github.com/afeiship/next-hook-value/blob/master/LICENSE.txt
+[license-image]: https://img.shields.io/npm/l/@feizheng/next-switch-value
+[license-url]: https://github.com/afeiship/next-switch-value/blob/master/LICENSE.txt
 
-[size-image]: https://img.shields.io/bundlephobia/minzip/@feizheng/next-hook-value
-[size-url]: https://github.com/afeiship/next-hook-value/blob/master/dist/next-hook-value.min.js
+[size-image]: https://img.shields.io/bundlephobia/minzip/@feizheng/next-switch-value
+[size-url]: https://github.com/afeiship/next-switch-value/blob/master/dist/next-switch-value.min.js
 
-[download-image]: https://img.shields.io/npm/dm/@feizheng/next-hook-value
-[download-url]: https://www.npmjs.com/package/@feizheng/next-hook-value
+[download-image]: https://img.shields.io/npm/dm/@feizheng/next-switch-value
+[download-url]: https://www.npmjs.com/package/@feizheng/next-switch-value
