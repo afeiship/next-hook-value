@@ -23,9 +23,10 @@
         {
           circle: 'circle me',
           rect: 'rect me',
-          '*': 'star value'
+          '*': 'star value',
+          nil: 'default value'
         },
-        { default: 'default value' }
+        { default: 'nil' }
       );
 
       expect(hookValue.get('circle')).toBe('circle me');

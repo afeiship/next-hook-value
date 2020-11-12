@@ -2,8 +2,8 @@
   var global = global || this || window || Function('return this')();
   var nx = global.nx || require('@feizheng/next-js-core2');
   var PRIVATE_DEFAULT = '__$@$__';
-  var PUBLIC_DEFAULT = '*';
   var DEFAULT_OPTIONS = {
+    default: '*',
     separator: '|',
     debug: false
   };
@@ -14,7 +14,7 @@
         var defHooks = {};
         this.options = nx.mix(null, DEFAULT_OPTIONS, inOptions);
 
-        defHooks[PRIVATE_DEFAULT] = this.options.default || inHooks[PUBLIC_DEFAULT];
+        defHooks[PRIVATE_DEFAULT] = inHooks[this.options.default];
         this.hooks = this.process(nx.mix(null, inHooks, defHooks));
       },
       get: function (inValue) {
