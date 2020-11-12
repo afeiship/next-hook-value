@@ -2,8 +2,8 @@
  * name: @feizheng/next-switch-value
  * description: Get value for hooks or default.
  * homepage: https://github.com/afeiship/next-switch-value
- * version: 1.0.1
- * date: 2020-11-12T10:20:15.532Z
+ * version: 1.0.2
+ * date: 2020-11-12T12:04:17.086Z
  * license: MIT
  */
 

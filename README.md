@@ -20,7 +20,7 @@ npm install -S @feizheng/next-switch-value
 ```js
 import NxSwitchValue from '@feizheng/next-switch-value';
 
-const hookValue = new NxSwitchValue({
+const svalue = new NxSwitchValue({
   2: '参数错误',
   3: '未知错误',
   '-1': '用户取消',
@@ -29,22 +29,27 @@ const hookValue = new NxSwitchValue({
   'div|span|ul|li': 'html',
 });
 
-hookValue.get('2') //参数错误
-hookValue.get('3') //未知错误
-hookValue.get('-1') //用户取消
+// one2one
+svalue.get('2') //参数错误
+svalue.get('3') //未知错误
+svalue.get('-1') //用户取消
 
-hookValue.get(null) //服务端接口返回的错误
-hookValue.get(100) //服务端接口返回的错误
 
-hookValue.get('circle') // svg
-hookValue.get('rect') // svg
-hookValue.get('use') // svg
-hookValue.get('path') // svg
+// one2many
+svalue.get('circle') // svg
+svalue.get('rect') // svg
+svalue.get('use') // svg
+svalue.get('path') // svg
 
-hookValue.get('div') // html
-hookValue.get('span') // html
-hookValue.get('ul') // html
-hookValue.get('li') // html
+svalue.get('div') // html
+svalue.get('span') // html
+svalue.get('ul') // html
+svalue.get('li') // html
+
+
+// set defautls
+svalue.get(null) //服务端接口返回的错误
+svalue.get(100) //服务端接口返回的错误
 ```
 
 ## license

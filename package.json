@@ -1,6 +1,6 @@
 {
   "name": "@feizheng/next-switch-value",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get value for hooks or default.",
   "homepage": "https://github.com/afeiship/next-switch-value",
   "author": {
