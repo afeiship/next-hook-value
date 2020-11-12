@@ -24,7 +24,9 @@ const hookValue = new NxHookValue({
   2: '参数错误',
   3: '未知错误',
   '-1': '用户取消',
-  '*': '服务端接口返回的错误'
+  '*': '服务端接口返回的错误',
+  'circle|rect|use|path': 'svg',
+  'div|span|ul|li': 'html',
 });
 
 hookValue.get('2') //参数错误
@@ -33,6 +35,16 @@ hookValue.get('-1') //用户取消
 
 hookValue.get(null) //服务端接口返回的错误
 hookValue.get(100) //服务端接口返回的错误
+
+hookValue.get('circle') // svg
+hookValue.get('rect') // svg
+hookValue.get('use') // svg
+hookValue.get('path') // svg
+
+hookValue.get('div') // html
+hookValue.get('span') // html
+hookValue.get('ul') // html
+hookValue.get('li') // html
 ```
 
 ## license
