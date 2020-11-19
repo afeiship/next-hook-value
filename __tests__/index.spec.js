@@ -1,6 +1,5 @@
 (function () {
-  const nx = require('@feizheng/next-js-core2');
-  const NxSwitchValue = require('../src/next-switch-value');
+  const NxSwitchValue = require('../src');
 
   describe('NxSwitchValue.methods', function () {
     test('init normal case', function () {

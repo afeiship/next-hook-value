@@ -1,15 +1,15 @@
 /*!
- * name: @feizheng/next-switch-value
- * description: Get value for hooks or default.
+ * name: @jswork/next-switch-value
+ * description: Get value for switch/case condition or default.
  * homepage: https://github.com/afeiship/next-switch-value
  * version: 1.0.0
- * date: 2020-11-12T13:09:46.569Z
+ * date: 2020-11-19 08:23:10
  * license: MIT
  */
 
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
   var PRIVATE_DEFAULT = '__$@$__';
   var DEFAULT_OPTIONS = {
     default: '*',

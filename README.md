@@ -1,5 +1,5 @@
 # next-switch-value
-> Get value for hooks or default.
+> Get value for switch/case condition or default.
 
 [![version][version-image]][version-url]
 [![license][license-image]][license-url]
@@ -8,7 +8,7 @@
 
 ## installation
 ```bash
-npm install -S @feizheng/next-switch-value
+npm install -S @jswork/next-switch-value
 ```
 
 ## apis
@@ -55,14 +55,14 @@ svalue.get(100) //服务端接口返回的错误
 ## license
 Code released under [the MIT license](https://github.com/afeiship/next-switch-value/blob/master/LICENSE.txt).
 
-[version-image]: https://img.shields.io/npm/v/@feizheng/next-switch-value
-[version-url]: https://npmjs.org/package/@feizheng/next-switch-value
+[version-image]: https://img.shields.io/npm/v/@jswork/next-switch-value
+[version-url]: https://npmjs.org/package/@jswork/next-switch-value
 
-[license-image]: https://img.shields.io/npm/l/@feizheng/next-switch-value
+[license-image]: https://img.shields.io/npm/l/@jswork/next-switch-value
 [license-url]: https://github.com/afeiship/next-switch-value/blob/master/LICENSE.txt
 
-[size-image]: https://img.shields.io/bundlephobia/minzip/@feizheng/next-switch-value
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/next-switch-value
 [size-url]: https://github.com/afeiship/next-switch-value/blob/master/dist/next-switch-value.min.js
 
-[download-image]: https://img.shields.io/npm/dm/@feizheng/next-switch-value
-[download-url]: https://www.npmjs.com/package/@feizheng/next-switch-value
+[download-image]: https://img.shields.io/npm/dm/@jswork/next-switch-value
+[download-url]: https://www.npmjs.com/package/@jswork/next-switch-value
