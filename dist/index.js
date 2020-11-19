@@ -3,7 +3,7 @@
  * description: Get value for switch/case condition or default.
  * homepage: https://github.com/afeiship/next-switch-value
  * version: 1.0.0
- * date: 2020-11-19 08:23:10
+ * date: 2020-11-19 08:30:23
  * license: MIT
  */
 
