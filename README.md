@@ -18,7 +18,7 @@ npm install -S @jswork/next-switch-value
 
 ## usage
 ```js
-import NxSwitchValue from '@feizheng/next-switch-value';
+import NxSwitchValue from '@jswork/next-switch-value';
 
 const svalue = new NxSwitchValue({
   2: '参数错误',
